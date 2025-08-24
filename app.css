@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+main{
+    text-align: center;
+    background-color: #333333;
+    padding:20px;
+    border-radius: 10px;
+}
+
+#value{
+    font-size: 50px;
+}
+
+button{
+    font-size: 16px;
+    margin:0 5px;
+    background-color: #555555;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #777777;
+}
+
+button:active{
+    animation: pulse 0.5s linear;
+    background-color: #999999;
+}
